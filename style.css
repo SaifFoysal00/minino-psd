@@ -1,0 +1,234 @@
+/* font-family: 'Ubuntu', sans-serif; */
+
+body{
+	margin:0;
+	padding:0;
+}
+/* header start */
+
+.header_wrap{
+	width:100%;
+	padding:40px 0px;
+	overflow:hidden
+}
+.container{
+	width:90%;
+	margin:0 auto;
+
+
+}
+.logo{
+	width:16%;
+	float:left;
+	margin-top:12px;
+}
+.logo img{
+	width:100%;
+}
+.menu{
+	width:70%;
+	overflow:hidden;
+	float:right;
+}
+.menu ul{
+	list-style:none;
+	float:right;
+}
+.menu ul li{
+  float:left;/
+
+}
+
+
+.menu ul li a{
+  font-family:font-family: 'Ubuntu', sans-serif;
+  font-weight:400;
+  font-size:14px;
+  text-transform:uppercase;
+  color:#626262;
+  text-decoration:none;
+  margin:0px 45px;
+  border-bottom:1px solid transparent;
+  transition:.5s;
+}
+.menu ul li:last-child a{
+	margin-right:0;
+}
+.menu ul li a:hover{
+	border-bottom:1px solid #626262;
+}
+
+
+/* header end */
+
+
+/* baner start */
+
+.container img{
+	width:100%;
+}
+
+/* baner end */
+
+/* about sectin start */
+.about_section{
+	padding:60px 0px;
+}
+.second_container{
+	width:80%;
+	margin:0 auto;
+	overflow:hidden;
+}
+.page_top_title{
+	font-family:font-family: 'Ubuntu', sans-serif;
+	font-weight:200;
+	font-size:14px;
+	color:#b4ad9e;
+	text-transform:uppercase;
+}
+.page_header{
+	font-family: 'Playfair Display', serif;
+	font-weight:400;
+	font-size:27px;
+	color:#626262;
+	text-transform:capitalize;
+}
+.main_paragrap{
+	font-family:'Playfair Display', serif;
+	font-weight:400;
+	font-size:14px;
+	text-transform:capitalize;
+	word-spacing:1px;
+	line-height:18px;
+	color:#626262;
+}
+.page_comment_item{
+	font-family:font-family: 'Ubuntu', sans-serif;
+	font-weight:200;
+	font-size:14px;
+	color:#b4ad9e;
+	text-transform:uppercase;
+	margin-top:40px;
+}
+/* about sectin end */
+
+/* work section start */
+
+.work_section{
+	
+	padding:60px 0px;
+}
+.iteam{}
+.single_item{
+	width:48%;
+	float:left;
+	margin-bottom:25px;
+	
+}
+.single_item:nth-child(odd){
+	margin-right:4%;
+}
+.single_item img{
+	width:100%;
+}
+
+/* work section end */
+
+/* sign up area start */
+.sign_up{
+	background:#f0f0f0;
+	padding:60px 0px;
+	/* padding:70px 0px; */
+}
+.third_container{
+	width:50%;
+	margin:0 auto;
+	text-align:center;
+	position:relative;
+}
+input[type=text] {
+    border: none;
+    border-bottom: 2px solid #262626;
+    width: 347px;
+    padding: 7px 0px;
+    background: none;
+    padding-right: 35px;
+}
+input[type=text]:focus{
+	outline:none;
+}
+.send_btn{
+	position:absolute;
+	top: 68px;
+    left: 411px;
+}
+.send_btn a{
+	text-decoration:none;
+}
+
+/* sign up area end */
+
+/* btn area start */
+.btn_section{
+	width:100%;
+	text-align:center;
+	padding-bottom:90px;
+}
+.btn_section a{
+	font-family: 'Playfair Display', serif;
+	font-size:18px;
+	color:#626262;
+	text-decoration:none;
+    padding:15px 25px;
+	border:1px solid #626262;
+	transition:.3s;
+}
+
+.btn_section a:hover{
+	background:#626262;
+	color:#f0f0f0;
+}
+/* btn area end */
+
+/* footer start */
+
+.fottor_wrapper{
+	width:100%;
+	background:#f0f0f0;
+	padding:10px;
+}
+.foot_left_con{
+	float:left;
+	width:35%;
+}
+.foot_left_con p{
+	float:left;
+}
+.second_par{
+	margin-left:15px;
+}
+.foot_right_con{
+	width:60%;
+	float:right;
+}
+.foot_right_con ul{
+	list-style:none;
+	float:right;
+}
+.foot_right_con ul li{
+	float:left;
+	
+}
+.foot_right_con ul li a{
+	text-decoration:none;
+	color:black;
+	padding:0px 15px;
+}
+.foot_right_con ul li a .fa{
+	color:#626262;
+	font-size:20px;
+}
+.foot_right_con ul li:last-child a{
+	padding:0;
+}
+/* footer end */
